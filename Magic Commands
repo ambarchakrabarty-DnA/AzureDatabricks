@@ -4,4 +4,4 @@
 # %sql - This command is used to change the Databricks notebook cell to SQL
 # %scala - This command is used to change the Databricks notebook cell to Scala
 # %r - This command is used to change the Databricks notebook cell to R
-# %fs - This command lists all the file systems in Databricks (DBFS) 
+# %fs - This command lists all the file systems in Databricks (DBFS) when used with the 'ls' command
