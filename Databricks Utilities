@@ -1,5 +1,15 @@
 # There are four types of Databricks utilities 
 # 1. File System Utilities
+       %fs
+       ls
+
+     dbutils.fs.ls ('/....filepath...')
+
+     We can develop a for loop and print the files using dbutils command as follows:
+
+     for files in dbutils.fs.ls('/....filepath.....'):
+       print(files)
+
 # 2. Widget Utilities
 # 3. Secrets Utilities
 # 4. Notebook Workflow Utilities
