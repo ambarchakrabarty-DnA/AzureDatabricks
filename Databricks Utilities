@@ -14,7 +14,8 @@
 
       for files in dbutils.fs.ls('/....filepath....'):
         if files.name.endswith ('...character....')
-             print(files)
+             print(files) 
+      ## if we only want to see folder names then add print(files.name)
 
 # 2. Widget Utilities
 # 3. Secrets Utilities
