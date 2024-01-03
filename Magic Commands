@@ -1,0 +1,7 @@
+# The magic commands used in Azure Databricks are the following:
+
+# %python - This command is used to change the Databricks notebook cell to python
+# %sql - This command is used to change the Databricks notebook cell to SQL
+# %scala - This command is used to change the Databricks notebook cell to Scala
+# %r - This command is used to change the Databricks notebook cell to R
+# %fs - This command lists all the file systems in Databricks (DBFS) 
