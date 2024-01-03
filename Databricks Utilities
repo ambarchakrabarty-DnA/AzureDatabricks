@@ -10,6 +10,12 @@
      for files in dbutils.fs.ls('/....filepath.....'):
        print(files)
 
+    We can add an if statement to the above for loop to filter out files we don't want as follows:
+
+      for files in dbutils.fs.ls('/....filepath....'):
+        if files.name.endswith ('...character....')
+             print(files)
+
 # 2. Widget Utilities
 # 3. Secrets Utilities
 # 4. Notebook Workflow Utilities
