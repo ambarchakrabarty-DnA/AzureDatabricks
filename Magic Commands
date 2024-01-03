@@ -5,3 +5,4 @@
 # %scala - This command is used to change the Databricks notebook cell to Scala
 # %r - This command is used to change the Databricks notebook cell to R
 # %fs - This command lists all the file systems in Databricks (DBFS) when used with the 'ls' command
+# %sh - This is the shell magic command which is used to understand the current processes running in the cluster. This command is used with the 'ps' command to display the processes running. 
